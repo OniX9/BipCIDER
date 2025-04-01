@@ -18,7 +18,7 @@ Disclaimer: This is for educational purposes only. We are not responsible for an
 
 - Bruteforce different bip032 seed phrases.
 - Use proxy servers as actors for peak speeds.
-- Add email address for instant notification
+- Add email address for instant notification via SMTP
 - Easy to set up and run.
 
 ---
@@ -45,9 +45,15 @@ Before running the project, ensure you have the following installed:
     pip install -r requirements.txt
     ```
 
-3. Add email for notifications to .env:
+3. Create .env file:
+    ```bash
+    cat > .env
+    ```
+    Then press ***Enter***.
+
+3. Add fill your email details into .env:
     ```.env
-    GMAIL_APP_PASSWORD = "Your Gmail app password here"
+    GMAIL_APP_PASSWORD = Sender Gmail app password here
     EMAIL_FROM = sender...@gmail.com
     EMAIL_TO = "recieving email address"
     ```
