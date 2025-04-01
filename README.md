@@ -1,12 +1,14 @@
 # BipCIDER
 
-Welcome to the ** 
- ____  _        ____ _     _
-| __ )(_)_ __  / ___(_) __| | ___ _ __
-|  _ \| | '_ \| |   | |/ _` |/ _ \ '__|
-| |_) | | |_) | |___| | (_| |  __/ |
-|____/|_| .__/ \____|_|\__,_|\___|_|
-        |_|** This repository contains a Python-based implementation for finding the seed phrase of an active BTC account.
+Welcome to 
+
+██████╗░██╗██████╗░░█████╗░██╗██████╗░███████╗██████╗░
+██╔══██╗██║██╔══██╗██╔══██╗██║██╔══██╗██╔════╝██╔══██╗
+██████╦╝██║██████╔╝██║░░╚═╝██║██║░░██║█████╗░░██████╔╝
+██╔══██╗██║██╔═══╝░██║░░██╗██║██║░░██║██╔══╝░░██╔══██╗
+██████╦╝██║██║░░░░░╚█████╔╝██║██████╔╝███████╗██║░░██║
+╚═════╝░╚═╝╚═╝░░░░░░╚════╝░╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝       
+This repository contains a Python-based implementation for finding the seed phrase of an active BTC account.
 
 Disclaimer: This is for educational purposes only. We are not responsible for any actions taken!
 
