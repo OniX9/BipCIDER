@@ -1,4 +1,4 @@
-# BipCider
+# BipCIDER
 
 Welcome to the ** 
  ____  _        ____ _     _
@@ -34,7 +34,7 @@ Before running the project, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/bipcider.git
+    git clone https://github.com/OniX9/BipCIDER.git
     cd bipcider
     ```
 
@@ -49,12 +49,12 @@ Before running the project, ensure you have the following installed:
 
 1. Navigate to the project directory:
     ```bash
-    cd bipcider
+    cd BipCIDER
     ```
 
-2. Run the miner script:
+2. Run the script:
     ```bash
-    python miner.py
+    python3 main.py
     ```
 
 3. Follow the on-screen instructions to start the mining simulation.
