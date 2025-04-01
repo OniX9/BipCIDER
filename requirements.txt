@@ -1,0 +1,5 @@
+mnemonic
+bip32utils
+requests
+python-dotenv
+pyfiglet

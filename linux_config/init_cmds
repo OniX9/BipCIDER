@@ -1,0 +1,11 @@
+# Run this first, after uploading btcminer
+!apt install unrar nano
+!unrar x btcminer.rar #Unzip btcminer
+!rm -r btcminer/.venv/ #del old Virtual env
+!rm -r btcminer/.mypy_cache/ #del mypy linter
+!pip3 install virtualenv # Setup for venv
+!virtualenv btcminer/.venv/
+!source btcminer/.venv/bin/activate
+!pip3 install -r btcminer/requirements.txt # install requirements
+!update-ca-certificates --fresh #Update ssl certs for email
+!cd btcminer # move to working directory
