@@ -45,6 +45,13 @@ Before running the project, ensure you have the following installed:
     pip install -r requirements.txt
     ```
 
+3. Add email for notifications to .env:
+    ```.env
+    GMAIL_APP_PASSWORD = "Your Gmail app password here"
+    EMAIL_FROM = sender...@gmail.com
+    EMAIL_TO = "recieving email address"
+    ```
+
 ---
 
 ## Usage

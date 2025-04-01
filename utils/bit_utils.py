@@ -2,6 +2,7 @@ import os
 import time
 import random
 import requests
+import pyfiglet
 from mnemonic import Mnemonic
 from bip32utils import BIP32Key
 from hashlib import sha256
@@ -59,9 +60,11 @@ class BitUtils:
                     return data.get("chain_stats", {}).get("funded_txo_sum", 0) / 1e8  # Convert from satoshis to BTC
                 elif response.status_code == 429:
                     wait_time = backoff_factor * (2 ** attempt)
-                    os.system('cls' if os.name == 'nt' else 'clear')
-                    print(f"Press Ctrl+C to stop the process")
-                    print(f"Rate limit hit. Retrying in {wait_time} seconds")
+                    # os.system('cls' if os.name == 'nt' else 'clear')
+                    # print(f"Press Ctrl+C to stop the process")
+                    # logo = pyfiglet.figlet_format("BipCider")
+                    # print(logo)
+                    # print(f"Rate limit hit. Retrying in {wait_time} seconds")
                     time.sleep(wait_time)
                 else:
                     print(f"Error: {response.status_code}")
@@ -106,9 +109,11 @@ class BitUtils:
                     return data.get("chain_stats", {}).get("funded_txo_sum", 0) / 1e8  # Convert from satoshis to BTC
                 elif response.status_code == 429:
                     wait_time = backoff_factor * (2 ** attempt)
-                    os.system('cls' if os.name == 'nt' else 'clear')
-                    print(f"Press Ctrl+C to stop the process")
-                    print(f"Rate limit hit. Retrying in {wait_time} seconds with a new proxy...")
+                    # os.system('cls' if os.name == 'nt' else 'clear')
+                    # logo = pyfiglet.figlet_format("BipCider")
+                    # print(logo)
+                    # print(f"Press Ctrl+C to stop the process")
+                    # print(f"Rate limit hit. Retrying in {wait_time} seconds with a new proxy...")
                     time.sleep(wait_time)
                 else:
                     print(f"Error: {response.status_code}")

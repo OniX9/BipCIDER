@@ -41,7 +41,7 @@ def run_cycle(cycle_number):
     total_checks += 1
     if balance is not None:
     # if False: # For testing purposes
-        if balance > -1:
+        if balance > 0:
             message = f"Cycle {total_checks if total_checks > max_threads else cycle_number} - Address: {address}, Balance: {balance} BTC, Seed Phrase: {seed_phrase} \n{'-' * 40}"
             print(message)
 
